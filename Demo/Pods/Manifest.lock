@@ -1,0 +1,24 @@
+PODS:
+  - Kanna (4.0.2)
+  - webparser (1.0.0):
+    - Kanna (~> 4.0.0)
+
+DEPENDENCIES:
+  - Kanna (~> 4.0.0)
+  - webparser (from `..`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kanna
+
+EXTERNAL SOURCES:
+  webparser:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  Kanna: c60b61d72554bf04ed1ee074f9b379855cab4892
+  webparser: 157af7504b91cafc38a0506236540d30fbd36df1
+
+PODFILE CHECKSUM: 956b1393c70292341aad28def07c79d9a15b436c
+
+COCOAPODS: 1.5.3

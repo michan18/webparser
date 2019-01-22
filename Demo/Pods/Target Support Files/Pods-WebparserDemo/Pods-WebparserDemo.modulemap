@@ -1,0 +1,6 @@
+framework module Pods_WebparserDemo {
+  umbrella header "Pods-WebparserDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

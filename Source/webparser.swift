@@ -19,10 +19,9 @@ public class parser
     }
     // To check whethere opreation queue is in progress or not
     
-    
-    
+    public init(){}
     // Getting the page HTML info of Title Discription & Preview_Image
-    func get_the_page_info(body_prase:[String],return_method:String,url_string:URL,_ completion: @escaping ((_ title: String?, _ description: String?, _ previewImage: String?,_ body_div:[String:[String]] ) -> Void), failure: @escaping ((_ errorMessage: String) -> Void))
+    public func get_the_page_info(body_prase:[String],return_method:String,url_string:URL,_ completion: @escaping ((_ title: String?, _ description: String?, _ previewImage: String?,_ body_div:[String:[String]] ) -> Void), failure: @escaping ((_ errorMessage: String) -> Void))
     {
         let url_request = NSMutableURLRequest.init(url: url_string)
         
@@ -115,4 +114,6 @@ public class parser
             
             }.resume()
     }
+        
+ 
 }
