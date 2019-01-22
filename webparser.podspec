@@ -9,12 +9,14 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author       = { "Cherian Danny Joseph" => "cheriandanny@gmail.com" }
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/michan18/webparser.git", :tag => "#{s.version}" }
+  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+
   s.source_files  = "Source"
   s.framework  = "UIKit"
   s.dependency 'Kanna', '~> 4.0.0'
   s.requires_arc = true
-
 
 end
